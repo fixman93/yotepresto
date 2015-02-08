@@ -1,0 +1,102 @@
+.investor-undermenu {
+    background-color: #e8f5ee;
+    border-top: solid 1px #d6d6d6;
+    border-bottom: solid 1px #d6d6d6;
+}
+.investor-undermenu h3 {
+    color: #00ae76;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0px;
+}
+.investor-undermenu h4 {
+    font-size: 24px;
+}
+.investor-undermenu .col-sm-6 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.investor-h3 h3 {
+    margin-top: 10px;
+}
+.invenstor-content .container-fluid > h3 {
+    text-align: center;
+    font-size: 32.14px;
+    color: #ff9937;
+    font-style: italic;
+    margin: 20px 0px;
+}
+.investor-options {
+    position: relative;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.investor-form {
+    border: solid 1px #dbdbdb;
+    padding-bottom: 25px;
+    margin-bottom: 120px;
+}
+.investor-form > .col-sm-12 {
+    float: none;
+}
+.investor-form-form {
+    max-width: 340px;
+    width: 100%;
+    margin: auto;
+    margin-top: 35px;
+}
+.investor-form .investor-form-content {
+    border-bottom: dashed 1px #00ae76;
+    padding-top: 15px;
+}
+.investor-options h4 {
+    color: #5d6660;
+    font-size: 17px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.investor-form-form input {
+    width: 100%;
+    border-radius: 20px;
+    border: solid 1px #C4C4C4;
+    height: 40px;
+    outline: none;
+    padding: 0px 15px;
+}
+.investor-form-form label {
+    font-size: 17px;
+    color: #020e14;
+    padding-left: 20px;
+}
+.investor-form-form label {
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+.investor-form-form label:nth-of-type(3) {
+    margin-bottom: 30px;
+}
+.investor-form-form button {
+    background-color: white;
+    border: solid 2px #16a064;
+    color: #16a064;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 5px 15px;
+    outline: none;
+    -webkit-transition: all 300ms ease-in-out 300ms;
+    -moz-transition: all 300ms ease-in-out 300ms;
+    -o-transition: all 300ms ease-in-out 300ms;
+    transition: all 300ms ease-in-out 300ms;
+}
+.investor-form-form button:active,.investor-form-form button:focus,.investor-form-form button:hover {
+    background-color: #16a064;
+    color: white;
+    border: solid 2px #16a064;
+    outline: none;
+}
+.investor-form-button {
+    text-align: center;
+}
