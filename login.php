@@ -19,20 +19,22 @@
 	<div class="login-panel container-fluid">
 		<div class="user-login-border">
 			<div class="user-login">
-				<input type="text" class="form-control">
+			<div class="alert alert-danger" id="alert-danger" style="display:none;"></div>
+				<input type="text" class="form-control" name="name" id="name">
 				<label>Correo Electrónico</label>
-				<input type="text" class="form-control">
+				<input type="text" class="form-control" name="pass" id="pass">
 				<label>Contraseña</label>
 				<div class="olvide">
 					<h1>Olvidé mi Contraseña</h1>
-					<button class="btn ingresat">Ingresat</button>
+					<button class="btn ingresat" id="logg">Ingresat</button>
 					<h2>¿No estás Registrado aún?</h2>
-					<button class="btn registrate">Regístrate</button>
+					<a href="register.php"><button class="btn registrate" >Regístrate</button></a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<?php include 'footer.php'; ?>
+	
 	
 		
 	
