@@ -24,45 +24,46 @@
 		</ul>
 	</div>
 </div>	
-<div class="container-fluid">
-	<div class="table-responsive">
-		<table class="table">
-			<thead>
-				<tr>
-					<td>Autorización</td>
-					<td>Fecha</td>
-					<td>Tipo de Movimiento</td>
-					<td>Cargo</td>
-					<td>Abono</td>
-					<td>Saldo</td>
-					<td>Referencia</td>
-					<td>Estado</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>23928</td>
-					<td>01/11/2014<p>14:37:38</p></td>
-					<td>FONDEO0</td>
-					<td>$10,000</td>
-					<td>$10,000</td>
-					<td>$10,000</td>
-					<td></td>
-					<td>APLICADO</td>
-				</tr>
-				<tr>
-					<td>23928</td>
-					<td>01/11/2014<p>14:37:38</p></td>
-					<td>FONDEO0</td>
-					<td>$10,000</td>
-					<td>$10,000</td>
-					<td>$10,000</td>
-					<td></td>
-					<td>APLICADO</td>
-				</tr>
-			</tbody>
-		</table>
+<div class="micuenta-bg">
+	<div class="container-fluid">
+		<div class="table-responsive">
+			<table class="table">
+				<thead>
+					<tr>
+						<td>Autorización</td>
+						<td>Fecha</td>
+						<td>Tipo de Movimiento</td>
+						<td>Cargo</td>
+						<td>Abono</td>
+						<td>Saldo</td>
+						<td>Referencia</td>
+						<td>Estado</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>23928</td>
+						<td>01/11/2014<p>14:37:38</p></td>
+						<td>FONDEO0</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td></td>
+						<td>APLICADO</td>
+					</tr>
+					<tr>
+						<td>23928</td>
+						<td>01/11/2014<p>14:37:38</p></td>
+						<td>FONDEO0</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td></td>
+						<td>APLICADO</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 </div>
-
 <?php include 'footer.php'; ?>
