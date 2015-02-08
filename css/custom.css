@@ -1521,9 +1521,92 @@ input#search-sleeps3 {
 .micuenta-bg table tbody tr td:nth-child(2) {
     text-align: left;
 }
+
 /* end of micuenta */
+
+/* movimientos */
+
+.completa-los-datos {
+	background: #D3EDE4;
+	padding: 15px 0px;
+}
+
+.completa-los-datos input {
+    border: 1px solid #E2EDE9;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.completa-los-datos label {
+    color: #020e14;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 30px;
+    margin-top: 3px;
+    margin-bottom: 13px;
+}
+
+.completa-btn button:first-child {
+    background: #FFA630;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.completa-btn button:last-child {
+    background: none;
+    border: 2px solid #16a064;
+    color: #16a064;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.face-login {
+    text-align: center;
+}
+
+.completa-btn {
+    text-align: center;
+}
+
+.completa-social {
+    background: #F7F7F7;
+    padding: 30px 0px;
+}
+
+/* end of movimientos */
+
+
 /* media query */
 @media (max-width:961px) {
+	.tipos-list ul li {
+		float: left;
+		color: #020e14;
+		font-weight: bold;
+		font-size: 17px;
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	.tipos-list ul li input {
+		border: 1px solid #E2EDE9;
+		border-radius: 10px;
+		padding: 7px 4px;
+		width: 80%;
+		margin-left: 0px;
+		margin-right: 8px;
+	}
+	.tipos-list ul li button {
+		background: #FFA630;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		margin-top: 26px;
+	}
 }
 @media (max-width: 602px){
 	.direccion ul li {
@@ -1549,17 +1632,17 @@ input#search-sleeps3 {
 		width: 100%;
 	}
 	.lesta-de-creditos h1 span:first-child {
-font-weight: normal;
-color: #7BD350;
-margin-left: 30px;
-float: right;
-}
-.lesta-de-creditos h1 span:last-child {
-color: #7A8181;
-font-weight: normal;
-font-style: italic;
-margin-left: 0px;
-}
+	font-weight: normal;
+		color: #7BD350;
+		margin-left: 30px;
+		float: right;
+	}
+	.lesta-de-creditos h1 span:last-child {
+		color: #7A8181;
+		font-weight: normal;
+		font-style: italic;
+		margin-left: 0px;
+	}
 }
 
 @media (max-width:780px){
@@ -1643,6 +1726,7 @@ margin: auto;
 text-align: center;
 }
 }
+
 
 @media (max-width:560px){
 	.header-white img {
@@ -1767,6 +1851,28 @@ width: 80%;
 margin: auto;
 text-align: center;
 }
+	.tipos-list ul li {
+		float: left;
+		color: #020e14;
+		font-weight: bold;
+		font-size: 17px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.tipos-list ul li input {
+		border: 1px solid #E2EDE9;
+		border-radius: 10px;
+		padding: 7px 4px;
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 8px;
+	}
+	.creditos-fondear h1 {
+font-size: 21px;
+font-style: italic;
+color: #8dc63f;
+margin: 0;
+}
 }
 @media (max-width:385px){
 	.navbar-icon li a {
@@ -1783,6 +1889,9 @@ font-size: 30px;
 width: 90%;
 margin: auto;
 text-align: center;
+}
+.completa-btn button:first-child {
+margin-bottom: 10px;
 }
 }
 

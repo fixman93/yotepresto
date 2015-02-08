@@ -100,3 +100,21 @@
 .investor-form-button {
     text-align: center;
 }
+
+@media (max-width:720px){
+	.investor-options {
+		position: relative;
+		float: left;
+		width: 30%;
+		text-align: center;
+	}
+}
+
+@media (max-width:400px){
+	.investor-options {
+		position: relative;
+		float: left;
+		width: 50%;
+		text-align: center;
+	}
+}
