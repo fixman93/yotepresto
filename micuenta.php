@@ -61,6 +61,56 @@
 						<td></td>
 						<td>APLICADO</td>
 					</tr>
+					<tr>
+						<td>23928</td>
+						<td>01/11/2014<p>14:37:38</p></td>
+						<td>FONDEO0</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td></td>
+						<td>APLICADO</td>
+					</tr>
+					<tr>
+						<td>23928</td>
+						<td>01/11/2014<p>14:37:38</p></td>
+						<td>FONDEO0</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td></td>
+						<td>APLICADO</td>
+					</tr>
+					<tr>
+						<td>23928</td>
+						<td>01/11/2014<p>14:37:38</p></td>
+						<td>FONDEO0</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td></td>
+						<td>APLICADO</td>
+					</tr>
+					<tr>
+						<td>23928</td>
+						<td>01/11/2014<p>14:37:38</p></td>
+						<td>FONDEO0</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td></td>
+						<td>APLICADO</td>
+					</tr>
+					<tr>
+						<td>23928</td>
+						<td>01/11/2014<p>14:37:38</p></td>
+						<td>FONDEO0</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td>$10,000</td>
+						<td></td>
+						<td>APLICADO</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
