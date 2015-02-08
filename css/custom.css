@@ -543,6 +543,9 @@ button.btn.registrate {
 .gray-list {
 	background:#fff;
 }
+.orange-list {
+    background:#fffdf8;
+}
 .list li {
 	line-height:60px;
 	border-bottom: 1px dashed #DCE5E4;
