@@ -12,6 +12,7 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/marko.css" rel="stylesheet">
+    <link href="css/detail-prestamo.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <![endif]-->
