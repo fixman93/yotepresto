@@ -6,6 +6,7 @@
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
+	padding: 0px 13px;
 }
 .table-block .blue-table {
 	border:none;
@@ -17,10 +18,23 @@
 }
 .table-block .blue-table thead tr td {
 	color:#9ACE4E!important;
+	border-top:1px dashed #efefef!important;
 }
 .table-block .pre-total-table tr td:first-child {
 	border-bottom:1px dashed #00AF73;
 	border-top: none;
+	text-transform: none;
+	font-size: 16px!important;
+}
+.table-block .blue-table tr td {
+	vertical-align:middle;
+	border-right:1px solid #EFEFEF;
+}
+.table-block .blue-table tr td:last-child {
+	border-right:none;
+}
+.table-block .blue-table tr td:nth-child(4), .table-block .blue-table tr td:first-child {
+	color:#8F9593;
 }
 .table-block h3 {
 	text-align:center;
