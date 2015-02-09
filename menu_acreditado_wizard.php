@@ -91,11 +91,11 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="form-group col-sm-2">
+					<div class="form-group col-sm-6">
 						<input name="dependientes-economics" id="dependientes-economics" class="form-control" type="text">
 						<label for="#dependientes-economics">Dependientes economics</label>
 					</div>
-					<div class="form-group col-sm-6 col-sm-offset-4">
+					<div class="form-group col-sm-6">
 						<input name="grado-educativo" id="grado-educativo" class="form-control" type="text">
 						<label for="#grado-educativo">Grado Educativo</label>
 					</div>
@@ -127,8 +127,10 @@
 						<label for="#segundo-apellido">Segundo Apellido</label>
 					</div>
 				</div>
-				<div class="btn btn-green">Guardar y Continuar</div>
-				<div class="btn btn-orange">Cerrar</div>
+				<div class="col-sm-12 completa-btn">
+					<button>Guardar y Continuar</button>
+					<button>Cerrar</button>
+				</div>
 			</form>
 		</div>
 	</div>
