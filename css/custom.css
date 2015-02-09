@@ -1,6 +1,6 @@
 body{
-    font-family: 'Gudea', sans-serif;
-    color: #020e14
+	font-family: 'Gudea', sans-serif;
+	color: #020e14;
 	background: #F6F6F6;
 }
 
@@ -2199,6 +2199,28 @@ text-align: center;
 	.personal-info {
 		width: 45%;
 		float: left;
+		text-align: center;
+		font-size: 18px;
+		color: #6b6d6e;
+		margin-bottom: 12px;
+	}
+	.informacion-personal.clearfix {
+		text-align: center;
+		border-top: 1px dashed #159f63;
+		border-bottom: 1px dashed #159f63;
+		padding: 20px 0px 20px 1.5%;
+	}
+.numero-banc {
+width: 100%;
+margin: auto;
+}
+}
+@media (max-width:385px){
+	.navbar-icon li a {
+		padding: 8px;
+	}
+	.welcome-page h1 {
+		font-size: 40px;
 		text-align: center;
 		font-size: 18px;
 		color: #6b6d6e;
