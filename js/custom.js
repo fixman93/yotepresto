@@ -92,7 +92,7 @@ $(document).on("click","#registration-btn", function(e){
 		}
 		else if (check.is(':checked'))
 			$.post("register.php",{username:username, password:password, email:email},function(result){
-				window.location = "location";
+				window.location = "welcome.php";
 			});
 		else{
 			$("#alert-danger").show();	
