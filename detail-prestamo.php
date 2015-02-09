@@ -59,7 +59,7 @@
 
 <div class="investor-undermenu">
 	<div class="container-fluid">
-		<div class="col-sm-12 investor-h3">
+		<div class="col-sm-12 investor-h3 dp-investor">
 			<h3>Informacion de tus pagos</h3>
 		</div>
 	</div> <!-- /.container-fluid -->
