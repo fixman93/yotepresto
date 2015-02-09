@@ -106,7 +106,7 @@
 						<label for="#numero-celular">Numero Celular</label>
 					</div>
 				</div>
-				<h1>Datos del conyugue (Opcional)</h1>
+				<h2>Datos del conyugue (Opcional)</h2>
 				<div class="row">
 					<div class="form-group col-sm-6">
 						<input name="primer-nombre" id="primer-nombre" class="form-control" type="text">
