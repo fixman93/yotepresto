@@ -31,6 +31,7 @@
 <div class="white-section clearfix">
   <div class="container-fluid">
 	<h1><img src="img/money.jpg" alt=""/>Fujo de Efectivo</h1>
+	
 	<div class="row">
 	  <div class="col-sm-6">
 		<ul class="list blue-list">
