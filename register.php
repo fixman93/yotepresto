@@ -38,26 +38,27 @@
 			</div>
 			</form>
 			<div class="register-fields">
+			<div class="alert alert-danger" id="alert-danger" style="display:none;"></div>
 				<form>
 					<div class="register-box">
-						<input type="text" class="form-control" name="" value="">
+						<input type="text" class="form-control" name="username" id="username" value="">
 						<label>Usuario</label>
-						<input type="text" class="form-control" name="" value="">
+						<input type="text" class="form-control" name="email" id="email" value="">
 						<label>Correo Electrónico</label>
-						<input type="text" class="form-control" name="" value="">
+						<input type="text" class="form-control" name="confirmemail" id="confirmemail" value="">
 						<label>Confirma Correo Electrónico</label>
-						<input type="text" class="form-control" name="" value="">
+						<input type="text" class="form-control" name="password" id="password" value="">
 						<label>Contraseña</label>
-						<input type="text" class="form-control" name="" value="">
+						<input type="text" class="form-control" name="confirmpassword" id="confirmpassword" value="">
 						<label>Confirmar Contraseña</label>
 					</div>
 					<div class="accepto">
-						<input type="checkbox">
+						<input type="checkbox" id="t_and_c">
 						Acepto los <a href="#">Términos y Condiciones</a> de uso de la comunidad
 						<h2>yotepresto.com</h2>
 					</div>
 					<div class="reg-btn">
-						<button class="btn">Regístrarme</button>
+						<button class="btn" id="registration-btn">Regístrarme</button>
 					</div>
 				</form>
 			</div>

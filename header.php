@@ -35,7 +35,7 @@
 			</a>
 				<ul class="nav navbar-nav navbar-icon">
 					<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Consultame"><i class="fa fa-fw fa-file-text-o"></i></a></li>
-					<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Consultame"><i class="fa fa-fw fa-shopping-cart"></i><span class="badge">200</span></a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Consultame"><i class="fa fa-fw fa-shopping-cart" data-toggle="modal" data-target="#checkout"></i><span class="badge" data-toggle="modal" data-target="#checkout">200</span></a></li>
 					<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Consultame"><i class="fa fa-fw fa-comment-o"></i><span class="badge">200</span></a></li>
 				    <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Consultame"><i class="fa fa-fw fa-user"></i></a></li>
 				</ul>

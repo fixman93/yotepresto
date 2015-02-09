@@ -814,6 +814,138 @@ header-white ul li a {
 }
 /* end of lend list */
 
+/* confirm modal */
+
+.confirma-tus h1 {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.confirma-tus p {
+    font-size: 16px;
+    text-align: left;
+    color: #6a6e6f;
+}
+
+.confirma-tus table thead tr td {
+    color: #020e14;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.confirma-tus table tbody tr td:first-child {
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.confirma-tus table tbody tr td h1 {
+    margin: 0px;
+    font-size: 30px;
+    color: #15a063;
+    font-weight: normal;
+}
+
+.confirma-tus table tbody tr td h2 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.confirma-tus table tbody tr td p {
+    color: #15a063;
+    font-size: 13px;
+    text-align: center;
+}
+
+.confirma-tus table tbody tr td span {
+    margin-left: 20px;
+}
+
+.confirma-tus table tbody tr td input {
+    border: 1px solid #EDEDED;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.confirma-tus table tbody tr td {
+    border-top: 0px;
+    border-bottom: 1px dashed #00C28B;
+}
+
+.confirma-tus table thead tr td:nth-child(5) {
+    text-align: left;
+    padding-left: 34px;
+}
+
+.fondear-a h1 {
+    text-align: right;
+    color: #ff9937;
+    font-size: 17px;
+    margin: 0px;
+    margin-right: 20%;
+    
+}
+
+.fondear-a h1 span {
+    color: black;
+    margin-left: 40px;
+}
+
+.monto-total h1 {
+    font-size: 28px;
+    text-align: right;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.monto-total {
+    margin-right: 20%;
+}
+
+.monto-total h1 span {
+    color: #6b6d6e;
+    margin-left: 30px;
+    margin-right: 11%;
+}
+
+.contrasena h2 {
+float: left;
+font-size: 17px;
+font-weight: bold;
+color: #16a064;
+margin: 0px;
+margin-top: 3px;
+}
+
+.contrasena button {
+    background: #FFA630;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    margin-left: 20px;
+}
+
+.contrasena {
+	float: right;
+}
+
+.contrasena h2 input {
+    border-radius: 10px;
+    box-shadow: none;
+    border: 1px solid #EDEDED;
+    padding: 4px 6px;
+    margin-left: 15px;
+}
+
+
+
+/* end of confirm modal */
+
 /* prestar modal */
 
 .modal-backdrop {
@@ -1730,22 +1862,30 @@ text-align: center;
 
 @media (max-width:560px){
 	.header-white img {
-position: absolute;
-left: 15px;
-width: 37%;
-vertical-align: middle;
-margin-top: 10px;
+		position: absolute;
+		left: 15px;
+		width: 37%;
+		vertical-align: middle;
+		margin-top: 10px;
+	}
+	.welcome-page h1 {
+		font-size: 60px;
+		text-align: center;
+	}
+	.retina-input-container {
+		width: 60%;
+		margin: auto;
+		text-align: center;
+	}
 }
-.welcome-page h1 {
-font-size: 60px;
-text-align: center;
+@media (max-width: 520px) {
+	.contrasena button {
+		float: left;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
 }
-.retina-input-container {
-width: 60%;
-margin: auto;
-text-align: center;
-}
-}
+
 @media (max-width: 500px){
 	.creditos-fondear h1 {
 		font-size: 24px;
@@ -1756,14 +1896,14 @@ text-align: center;
 }
 @media (max-width: 480px){
 	.welcome-page h1 {
-font-size: 40px;
-text-align: center;
-}
-.envio-de {
-width: 70%;
-margin: auto;
-margin-bottom: 30px;
-}
+		font-size: 40px;
+		text-align: center;
+	}
+	.envio-de {
+		width: 70%;
+		margin: auto;
+		margin-bottom: 30px;
+	}
 }
 @media (max-width: 420px){
 	.category-a1 h2 {
@@ -1787,42 +1927,39 @@ margin-bottom: 30px;
 		font-size: 14px;
 	}
 	.prestar-modal-menu .col-xs-2 {
-    width: 50%;
-}
-
-.prestar-modal-menu .col-xs-3 {
-    width: 50%;
-}
-
-.prestar-modal-menu .col-xs-5 {
-    width: 50%;
-}
-
-.category-a1 .col-xs-2 {
-    width: 50%;
-}
-.category-a1 .col-xs-3 {
-    width: 100%;
-}
-.category-a1 .col-xs-5 {
-    width: 100%;
-}
-.patinopolola-gray p {
-color: #6a6e6f;
-border-bottom: 1px dashed;
-width: 100%;
-float: right;
-padding: 0px;
-font-size: 16px;
-}
-.patinopolola-green p {
-color: #6a6e6f;
-border-bottom: 1px dashed;
-width: 100%;
-float: right;
-padding: 0px;
-font-size: 16px;
-}
+    	width: 50%;
+    }
+    .prestar-modal-menu .col-xs-3 {
+    	width: 50%;
+    }	
+    .prestar-modal-menu .col-xs-5 {
+    	width: 50%;
+    }
+    .category-a1 .col-xs-2 {
+    	width: 50%;
+    }
+    .category-a1 .col-xs-3 {
+    	width: 100%;
+    }
+    .category-a1 .col-xs-5 {
+    	width: 100%;
+    }
+    .patinopolola-gray p {
+	    color: #6a6e6f;
+	    border-bottom: 1px dashed;
+	    width: 100%;
+	    float: right;
+	    padding: 0px;
+	    font-size: 16px;
+	   }
+	.patinopolola-green p {
+		   color: #6a6e6f;
+		   border-bottom: 1px dashed;
+		   width: 100%;
+		   float: right;
+		   padding: 0px;	
+		   font-size: 16px;
+	}
 .preguntas-al h1 button {
 background: none;
 border: 2px solid #16a064;
@@ -1868,44 +2005,57 @@ text-align: center;
 		margin-right: 8px;
 	}
 	.creditos-fondear h1 {
-font-size: 21px;
-font-style: italic;
-color: #8dc63f;
-margin: 0;
-}
+		font-size: 21px;
+		font-style: italic;
+		color: #8dc63f;
+		margin: 0;
+	}
+	.monto-total h1 {
+		font-size: 18px;
+		text-align: right;
+		margin: 0;
+		margin-top: 10px;
+	}
 }
 @media (max-width:385px){
 	.navbar-icon li a {
 		padding: 8px;
 	}
 	.welcome-page h1 {
-font-size: 40px;
-text-align: center;
-}
-h1.agregar {
-font-size: 30px;
-}
-.retina-input-container {
-width: 90%;
-margin: auto;
-text-align: center;
-}
-.completa-btn button:first-child {
-margin-bottom: 10px;
-}
+		font-size: 40px;
+		text-align: center;
+	}
+	h1.agregar {
+		font-size: 30px;
+	}
+	.retina-input-container {
+		width: 90%;
+		margin: auto;
+		text-align: center;
+	}
+	.completa-btn button:first-child {
+		margin-bottom: 10px;
+	}
 }
 
 @media (max-width:320px){
 	.register-panel h1 {
-font-size: 16px;
-}
-.creditos-fondear h1 {
-font-size: 16px;
-font-style: italic;
-color: #8dc63f;
-margin: 0;
-}
-.retina-input-container label {
-font-size: 16px;
-}
+		font-size: 16px;
+	}
+	.creditos-fondear h1 {
+		font-size: 16px;
+		font-style: italic;
+		color: #8dc63f;
+		margin: 0;
+	}
+	.retina-input-container label {
+		font-size: 16px;
+	}
+	.fondear-a h1 {
+		text-align: right;
+		color: #ff9937;
+		font-size: 13px;
+		margin: 0px;
+		margin-right: 20%;
+	}
 }

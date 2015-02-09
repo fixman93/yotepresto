@@ -192,7 +192,7 @@
         <h4 class="modal-title" id="myModalLabel">Detalles del crédito: <span>092911</span></h4>
         <div class="presta-en">
 	        <h1>Presta en múltiplos de $200.00</h1>
-	        <input type="text"><button class="prestar-btn">Prestar</button><button class="cancelar1-btn close-second-modal" data-toggle="modal" data-target="#cancelar">cancelar</button>
+	        <input type="text"><button class="prestar-btn" data-toggle="modal" data-target="#cancelar">Prestar</button><button class="cancelar1-btn close-second-modal"   data-dismiss="modal">cancelar</button>
         </div>
         </div>
       </div>
@@ -306,5 +306,72 @@
 </div>
 
 <!--end of cancelar modal -->
+
+<!-- CheckOUT -->
+
+<div class="modal fade icon-modal" id="checkout" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content icon-style">
+      <div class="modal-body confirma-tus clearfix">
+        <h1>Confirma tus préstamos</h1>
+        <p>A continuación te prestamos el detalle de los préstamos que has seleccionado y el monto que vas a prestar a cada uno, por favor revísalos y confirmar con tu conrraseña para aplicarlos.</p>
+        <div class="table-responsive">
+		<table class="table confirma-table">
+			<thead>
+				<tr>
+				    <td>Crédito</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Monto a Prestar</td>
+					<td></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><h1>A1</h1></td>
+					<td><img src="img/list-car.png"></td>
+					<td><h2>$130,000</h2>
+					<p>$0.12<span>6años</span></p>
+					<td><input type="text" class="form-control">
+					<td><img src="img/delete.png"></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><h1>A1</h1></td>
+					<td><img src="img/list-car.png"></td>
+					<td><h2>$130,000</h2>
+					<p>$0.12<span>6años</span></p>
+					<td><input type="text" class="form-control">
+					<td><img src="img/delete.png"></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td><h1>A1</h1></td>
+					<td><img src="img/list-car.png"></td>
+					<td><h2>$130,000</h2>
+					<p>$0.12<span>6años</span></p>
+					<td><input type="text" class="form-control">
+					<td><img src="img/delete.png"></td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		<div class="fondear-a">
+			<h1>Créditos a fondear: <span>3</span></h1>
+		</div>
+		<div class="monto-total">
+			<h1>Monto total a prestar: <span>$15,200.00</h1>
+		</div>
+		<div class="contrasena">
+			<h2>Contraseña <input type="text"></h2><button>Prestar</button>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--end of checkOUT -->
 
 <?php include 'footer.php'; ?>
