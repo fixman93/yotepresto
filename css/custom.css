@@ -1818,6 +1818,9 @@ input#search-sleeps3 {
     border:8px solid #FFA62C;
     line-height: 53px;
 }
+.acreditado-wizard {
+    background:#fff;
+}
 .acreditado-wizard h1 {
     color:#ffa946;
     font-size:32px;
