@@ -1,7 +1,16 @@
 <?php include 'header.php'; ?>
-<div class="lesta-de-creditos">
+<div class="creditos-fondear">
 	<div class="container-fluid">
-		<h1>Lista de Créditos <span><b>%</b> Tasa</span><span>$0000,00</span></h1>
+		<div class="col-sm-4">
+			<h1>Créditos a Fondear: <span>3</span></h1>
+		</div>
+		<div class="col-sm-6">
+			<h1>Monto total a prestar: <span>$ 15,200.00</span></h1>
+		</div>
+		<div class="col-sm-2 fondear-btn">
+			<button>Prestar</button>
+			<button>Var detaille</button>
+		</div>
 	</div>
 </div>
 <div class="lend-list-cover">
@@ -298,7 +307,7 @@
   <div class="modal-dialog">
     <div class="modal-content icon-style">
       <div class="modal-body">
-        <h1><img src="img/thanks-icon.png">Se agregó a tu carritto</h1>
+        <h1><img src="img/thanks-icon.png">“Se	Agregó	a	tu	carrito</h1>
       </div>
       
     </div>

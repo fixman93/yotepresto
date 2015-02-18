@@ -60,24 +60,14 @@ $(document).on("click","#logg", function(e){
 
 $(document).on("click","#registration-btn", function(e){
 		var username = $("#username").val();
-		var password = $("#email").val();
-		var email = $("#confirmemail").val();
-		var email1 = $("#password").val();
+		var email = $("#email").val();
+		var email1 = $("#confirmemail").val();
+		var password = $("#password").val();
 		var password1 = $("#confirmpassword").val();
 		var check = $("#t_and_c");
 		if(username == ""){
 			$("#alert-danger").show();	
-			$("#alert-danger").html("Please enter user name");
-			return false;
-		}
-		else if(password != password1){
-			$("#alert-danger").show();	
-			$("#alert-danger").html("Password is not same");
-			return false;
-		}
-		else if(password == ""){
-			$("#alert-danger").show();	
-			$("#alert-danger").html("Password can't be empty");
+			$("#alert-danger").html("Please enter username");
 			return false;
 		}
 		else if(email != email1){
@@ -88,6 +78,16 @@ $(document).on("click","#registration-btn", function(e){
 		else if(email == ""){
 			$("#alert-danger").show();	
 			$("#alert-danger").html("Email can't be empty");
+			return false;
+		}
+		else if(password != password1){
+			$("#alert-danger").show();	
+			$("#alert-danger").html("Password is not same");
+			return false;
+		}
+		else if(password == ""){
+			$("#alert-danger").show();	
+			$("#alert-danger").html("Password can't be empty");
 			return false;
 		}
 		else if (check.is(':checked'))

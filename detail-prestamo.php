@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'header2.php'; ?>
 <div class="investor-undermenu">
 			<div class="container-fluid">
 				<div class="col-sm-6 investor-h3 text-center">
@@ -128,7 +128,7 @@
 					<td>Saldo inicio</td>
 					<td>Capital</td>
 					<td>Intereses ordinarios</td>
-					<td>Intereses mordinarios</td>
+					<td>Intereses Mordinarios</td>
 					<td>Comisiones</td>
 					<td>IVA</td>
 					<td>Total Pago</td>

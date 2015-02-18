@@ -17,9 +17,9 @@
 <div class="envio-de-spei">
 	<div class="container-fluid">
 		<ul class="clearfix">
-			<li><input type="checkbox">Envío de SPEI</li>
-			<li><input type="checkbox">Cargo a mi cuenta Bancaria</li>
-			<li><input type="checkbox">Cargo a mi tarjeta débito o crédito</li>
+			<li><input type="radio" checked name="envio">Envío de SPEI</li>
+			<li><input type="radio" name="envio">Cargo a mi cuenta Bancaria</li>
+			<li><input type="radio" name="envio">Cargo a mi tarjeta débito o crédito</li>
 		</ul>
 	</div>
 </div>
@@ -40,7 +40,7 @@
 	            </select>
 	            <label>Banco donde realizó el depósito:</label>
 	        </div>
-	        <div class="form-group form-group-sm">
+	        <!--<div class="form-group form-group-sm">
 	        	<label class="sr-only" for="search-sleeps1">Anzahl der Personen</label>
 	            <select id="search-sleeps1" name="sleeps" class="form-control" >
 		            <option></option>
@@ -48,7 +48,7 @@
 		            <option>2 Personen</option>
 	            </select>
 	            <label>Anexar comprobante (opcional):</label>
-	        </div>
+	        </div>-->
 	        <div class="btn-f">
 	        	<button>Notificar depósito</button>
 	        </div>

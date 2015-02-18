@@ -207,7 +207,7 @@
   </div>
   
   <div class="col-sm-5 valor-headline vh-bottom">
-  	<h1 class="text-left">Valor de tu cuenta</h1>
+  	<h1 class="text-left">Valor	Total de la	Cuenta</h1>
   	<h2>$0000.00</h2>
   </div>
   

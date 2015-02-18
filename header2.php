@@ -25,6 +25,7 @@ window.__wtw_lucky_site_id = 33030;
  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
    })();
  </script>
+
  
  <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -44,8 +45,7 @@ window.__wtw_lucky_site_id = 33030;
 	<div class="header-white clearfix">
 	  <div class="container-fluid">
 			<img src="img/logo1.png"alt=""/>
-			<div class="hide-mobile"> Tu Dinero Disponible <span class="green">$0000.00</span></div>
-			<div class="right-block">El Valor de tu Cuenta <span class="dark-green">$0000.00</span></div>
+			<div class="hide-mobile" style="opacity:0;"> Tu Dinero Disponible <span class="green">$0000.00</span></div>
 	  </div>
 	</div>
 	<div class="nav navbar" role="navigation">
@@ -80,13 +80,9 @@ window.__wtw_lucky_site_id = 33030;
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <li class="active"><a href="#">Mi Cuenta</a></li>
-		        <li><a href="lend-list.php">Prestar</a></li>
-		        <li><a href="#">PrestaSMART</a></li>
-		        <li><a href="fondear.php">Agregar Fondos</a></li>
-		        <li><a href="micuenta.php">Movimientos</a></li>
-		        <li><a href="#">Mi Cartera</a></li>
-		        <li><a href="portfolio.php">“Mis Préstamos</a></li>
-		        <li><a href="retirar.php">Retirar</a></li>
+		        <li><a href="lend-list.php">Solicitar Préstamo</a></li>
+		        <li><a href="#">Historial de Movimientos</a></li>
+		        <li><a href="fondear.php">Pagar</a></li>
 		      </ul>    
 		      </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
